@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/TylerJaacks/FeelingLuckySteam/issues"
   },
-  "homepage": "https://github.com/TylerJaacks/FeelingLuckySteam#readme"
+  "homepage": "https://github.com/TylerJaacks/FeelingLuckySteam#readme",
+  "dependencies": {
+    "open-uri": "^0.4.3",
+    "steam-webapi": "^0.6.5"
+  }
 }
