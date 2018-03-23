@@ -18,6 +18,7 @@
   "homepage": "https://github.com/TylerJaacks/FeelingLuckySteam#readme",
   "dependencies": {
     "open-uri": "^0.4.3",
+    "opn": "^5.3.0",
     "steam-webapi": "^0.6.5"
   }
 }

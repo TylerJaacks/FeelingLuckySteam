@@ -1,6 +1,6 @@
 var Steam = require('steam-webapi');
 var fs = require('fs');
-var open = require("open-uri");
+var opn = require('opn');
 
 // TODO Get the community id and Steam API key from the tokens file.s
 var communityId = process.argv[2];
@@ -30,7 +30,7 @@ Steam.ready(function (error) {
 
             console.log("Launching " + gameName);
 
-            launchGame();
+            launchGame(gameLaunchUri);
         });
     });
 });
@@ -41,5 +41,5 @@ function constructUri(appId) {
 
 /* TODO Launch game with Steam uri. */
 function launchGame(gameUri) {
-    open(gameUri);
+    opn(gameUri);
 }
