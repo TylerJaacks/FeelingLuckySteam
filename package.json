@@ -1,0 +1,19 @@
+{
+  "name": "feelingluckysteam",
+  "version": "1.0.0",
+  "description": "Selects a random game in your Steam library to play.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerJaacks/FeelingLuckySteam.git"
+  },
+  "author": "Tyler Jaacks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TylerJaacks/FeelingLuckySteam/issues"
+  },
+  "homepage": "https://github.com/TylerJaacks/FeelingLuckySteam#readme"
+}
